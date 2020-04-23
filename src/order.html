@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta Data -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- Judul -->
+    <link href="./img/logo.png" rel="icon" type="image/png">
+    <title>Helphy</title>
+   
+    <!-- Bootstrap CSS 
+    <link rel="stylesheet" href="styles/bootstrap.min.css"> -->
+
+    <!-- My CSS 
+    <link rel="stylesheet" href="styles/style.css"> -->
+
+    <!-- Icon 
+    <script src='./lib/fontawesome-all.min.js'></script> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Import Script JS
+    <script src="./lib/jquery.min.js"></script>
+    <script src="./lib/bootstrap.min.js"></script> -->
+    
+
+</head>
+
+<body>
+
+    <!-- Custom Element NavBar -->
+    <navbar-edit></navbar-edit>
+
+    <div id="home-services">
+        <div class="container">
+                <div class="col-md-12">
+                    <h2> <br> FORMULIR PESANAN </h2>
+                </div>
+                
+                <form>
+                    <input type="text" class="form-control" placeholder="Nama"><br>
+                    <input type="text" class="form-control" placeholder="No Hp/Email"><br>
+                 
+                    <select name="" class="form-control">
+                        <option value="">Pilih Jenis Layanan</option>
+                        <option value="">Jasa Edit</option>
+                        <option value="">Produk Handmade</option>
+                        <option value="">Print & Scan</option>
+                    </select>
+                    <br>
+                    <div class="form-group">
+                        <label for="contohupload1">Pilih file yang ingin diupload</label>
+                        <input type="file" class="form-control-file" id="contohupload1">
+                    </div>
+        
+                    <textarea class="form-control" rows="3" placeholder="Detail Pesanan"></textarea>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Order Now</button>
+
+                </form>
+
+
+                </div>
+            </div>
+        </div>
+   
+     <!-- script  -->
+   
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>
