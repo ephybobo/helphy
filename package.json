@@ -29,7 +29,7 @@
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js",
-    "predeploy": "yarn build",
+    "predeploy": "npm build",
     "deploy": "gh-pages -d build"
   },
   "author": "",
