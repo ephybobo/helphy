@@ -1,6 +1,7 @@
 {
   "name": "helphy",
   "version": "1.0.0",
+  "homepage": "https://ephybobo.github.io/helphy/",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -27,7 +28,9 @@
   },
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC"
