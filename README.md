@@ -9,4 +9,4 @@ Didalam website ini dibuat dengan :
 * AJAX API 
 
 <h1> Screenshot tampilan website </h1>
-<img src="helphy.png" width="900" alt="Screenshot"/> 
+<img src="helphy.png" width="1000" alt="Screenshot"/> 
