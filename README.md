@@ -7,3 +7,6 @@ Didalam website ini dibuat dengan :
 * Web Component dengan membuat custom element
 * Bundle webpack 4
 * AJAX API 
+
+<h1> Screenshot tampilan website </h1>
+<img src="helphy.png" width="500" alt="Screenshot"/> 
