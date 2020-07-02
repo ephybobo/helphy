@@ -8,5 +8,5 @@ Didalam website ini dibuat dengan :
 * Bundle webpack 4
 * AJAX API 
 
-<h3> Screenshot tampilan website </h3>
-<img src="helphy.png" width="800" alt="Screenshot"/> 
+<h1> Screenshot tampilan website </h1>
+<img src="helphy.png" width="900" alt="Screenshot"/> 
